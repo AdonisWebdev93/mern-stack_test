@@ -1,0 +1,554 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-a {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+}
+.font-lg{
+    color: #3E2816;
+    font-family: Mochiy Pop One;
+    font-size: 28px;
+    letter-spacing: 310%;
+    text-align: center;
+}
+.font-sm{
+    color: #F84C52;
+    font-family: Segoe Print;
+    font-size: 16px;
+    letter-spacing: 310%;
+}
+.header{
+    background-image: url('../img/mainvisual.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.header-top{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-top : 33px;
+    align-items: center;
+    z-index: 1;
+}
+.header-top > img{
+    padding-left: 100px;
+}
+.header-top .left-icon{
+    padding-right: 106px;
+}
+.header-top .left-icon > img{
+    padding-left: 57px;
+}
+
+/* section */
+.section{
+    width: 100%;
+    padding-top: 30px;
+}
+/* section-top */
+.section-top{
+    padding: 20px 142px 37px 65px;
+    margin-bottom: 51px;
+    display: flex;
+    border: 3px solid #707070 ;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Malgun Gothic;
+    font-size: 40px;
+    font-weight: bold;
+    color: #E23636;  
+}
+/* section-body */
+.section-body{
+    width: 100%;
+}
+/* section-first */
+.section-body .first{
+    background-color: #FCFDED;
+    padding-top: 62px;
+    padding-bottom: 81px;
+}
+.first .font-sm{
+    text-align: center;
+    margin-bottom: 23px;
+}
+.first .section-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.section-img .left{
+    position: relative;
+    display: flex;
+}
+.put-img1{
+    top: 165px;
+    left: 38px;
+    position: absolute;
+}
+.section-img .right{
+    position: relative;
+    display: flex;
+}
+.put-img2{
+    top: 165px;
+    left: 38px;
+    position: absolute;
+}
+.first .section-img2{
+    border: 3px solid #707070;
+    border-radius: 25px;
+    padding-top: 74px;
+    padding-bottom: 52px;
+    background-color: #ffffff;
+}
+.section-img2 .font{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #3E2816;
+    font-family: Malgun Gothic;
+    margin-bottom: 96px;
+}
+.section-img2 .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 56px;
+}
+.section-img2 .bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px;
+}
+/* section second */
+.second{
+    width: 100%;
+    padding-top: 108px;
+    padding-bottom: 100px;
+}
+.second .font-a{
+    font-family: Malgun Gothic;
+    font-weight: bold;
+    font-size: 28px;
+    color: #3E2816;
+    line-height: 37px;
+}
+.second .font-b{
+    font-family: Segoe Print;
+    font-weight: bold;
+    font-size: 16px;
+    color: #F84C52;
+    line-height: 28px;
+    margin-bottom: 36px;
+}
+.second .section-img-top{
+    display: flex;
+    justify-content: space-between;
+}
+.second .section-img-middle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78px;
+}
+.font-c{
+    font-family: Malgun Gothic;
+    font-weight: bold;
+    font-size: 28px;
+    color: #3E2816;
+    line-height: 28px;
+}
+.font-d{
+    font-family: Segoe Print;
+    font-weight: bold;
+    font-size: 16px;
+    color: #F84C52;
+    line-height: 28px;
+    margin-bottom: 36px;
+}
+.second .section-img-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.second .section-img-bottom img{
+    width: 385px;
+    height: 336px;
+}
+/* section third */
+.third{
+    width: 100%;
+    padding-top: 149px;
+    padding-bottom: 143px;
+    background-color: #FCFDED;
+}
+.third .font-b{
+    font-family: Segoe Print;
+    font-weight: bold;
+    font-size: 16px;
+    color: #F84C52;
+    line-height: 23px;
+    margin-bottom: 21px;
+}
+.third .top{
+    border: 1px solid #707070;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-bottom: 56px;
+    display: flex;
+}
+.third .top .top-right{
+    margin: auto;
+}
+.third .top .top-right .title{
+    padding-bottom: 73px;
+}
+.top-right .btn{
+    margin-left: 100px;
+}
+.third .font-sm{
+    text-align: center;
+    margin-bottom: 47px;
+}
+.third .section-img1{
+    display: flex;
+    overflow-x: hidden;
+}
+.third .section-img1 img{
+    width: 385px;
+    height: 336px;
+    padding-right: 38px;
+}
+.third .one .font{
+    padding: 22px 54px 0px 37px;
+}
+.font .lg{
+    font-family: Malgun Gothic;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #3E2816;
+}
+.font .sm{
+    font-family: Malgun Gothic;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #3E2816;
+}
+
+/* section forth */
+.forth{
+    width: 100%;
+    padding-top: 202px;
+    padding-bottom: 40px;
+}
+.forth .font-d{
+    margin-bottom: 90px;
+}
+.forth .card {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.forth .one .card img{
+    top: -40px;
+    position: absolute;
+}
+
+.font-r{
+    font-family: Malgun Gothic;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #3E2816;
+    padding-bottom: 27px;
+}
+.font-s{
+    font-family: Malgun Gothic;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #3E2816;
+}
+.card .font{
+    position: absolute;
+    padding: 33.4px 46px 46.3px 34.3px;
+}
+.forth .section-img {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 298px;
+}
+
+/* sectin five */
+.five{
+    padding-top: 38px;
+    padding-bottom: 83px;
+    width: 100%;
+    background-color: #FCFDED;
+}
+.five .font-sm{
+    margin-bottom: 60px;
+}
+.five .section-img{
+    margin-bottom: 160px;
+}
+.five .section-img-m{
+    text-align: center;
+    margin-bottom: 123px;
+}
+.section-img-b{
+    display: flex;
+    justify-content: space-between;
+}
+.section-img-b .font-right{
+    font-size: 16px;
+    font-family: Malgun Gothic;
+    color: #585656;
+    line-height: 23px;
+}
+.section-img-b .one{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    padding-bottom: 57.8px;
+}
+.five .font-right{
+    font-family: Malgun Gothic;
+    font-size: 16px;
+    color: #585656;
+    line-height: 23px;
+    align-items: center;
+    padding-bottom: 63.2px;
+}
+.pb{
+    padding-bottom: 86.2px !important;
+}
+.section-img-b .one > img{
+    padding-bottom: 79px;
+}
+
+.btn{
+    border: 1px solid #707070;
+    padding:15px 32.7px;
+    border-radius: 29px;
+    align-items: center;
+    
+}
+/*  section six  */
+.six{
+    width: 100%;
+    padding-top: 87px;
+    padding-bottom: 116px;
+}
+.six .font-sm{
+    padding-bottom: 90.5px;
+    border-bottom: 1px solid #707070;
+}
+.col{
+    padding-top: 46.5px;
+    padding-bottom: 53.5px;
+}
+.line {
+    border-bottom: 1px solid #707070;
+}
+.six-btn{
+    background-color: #FBB5B5;
+    padding:9.5px 55.5px;
+    border-radius: 29px;
+}
+.six-f-btn{
+    padding:9.5px 55.5px;
+    border-radius: 29px;
+}
+.c-1{
+    border: 2px solid #85A5C6;
+    color: #85A5C6;
+}
+.c-2{
+    border: 2px solid #FBB5B5;
+    color: #FBB5B5;
+}
+.c-3{
+    border: 2px solid #CCA64D;
+    color: #CCA64D;
+}
+.sec .six-btn{
+    background-color: #CCA64D;
+}
+.thi .six-btn{
+    background-color: #85A5C6;
+}
+.fou .six-btn{
+    background-color: #85A5C6;
+}
+.six .date{
+    padding-left: 51px;
+    padding-right: 81px;
+}
+.six-footer{
+    display: flex;
+    padding-top: 64.5px;
+    padding-left: 191px;
+    align-items: center;
+}
+.six-footer-one{
+    padding-right: 79px;
+}
+/* section seven */
+.seven{
+    width: 100%;
+    padding-top: 102px;
+    padding-bottom: 78px;
+    background-color: #FCFDED;
+}
+.seven-section-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+/* section eight */
+.eight{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Mochiy Pop One;
+}
+.eight .section-font{
+    font-size: 28px;
+    line-height: 84px;
+    letter-spacing: 300%;
+}
+.section-font-m{
+    font-size: 16px;
+}
+.section-title p {
+    font-size: 14px;
+    line-height: 29px;
+}
+.eight .row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-bottom: 22px;
+}
+.eight .row .company-img {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.eight .section-footer{
+    width: 728px;
+    padding-top: 33px;
+    padding-bottom: 38px;
+    border: 8px solid #828282;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.section-footer p{
+    font-size: 14px;
+    font-family: Malgun Gothic;
+    color: #775539;
+    line-height: 31px;
+}
+.section-btn{
+    text-align: center;
+}
+.section-btn span{
+    padding: 19px 59px 20px;
+    background-color: #DAB28C;
+    font-family: Microsoft YaHei UI;
+    font-size: 18px;
+    line-height: 65px;
+    color: #3E2816;
+    border-radius: 5px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #6161A7;
+    font-family: Microsoft YaHei UI;
+    font-size: 30px;
+    padding-top: 135px;
+    padding-bottom: 191.2px;
+    position: relative;
+    color: #ffffff;
+}
+.container-b{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16.9px;
+}
+.footer .font{
+    display: flex;
+    line-height: 62px;
+}
+.footer .font div{
+    padding-left: 97px;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+.footer-section input{
+    width: 482px;
+    height: 57px;
+    font-size: 30px;
+}
+.footer-section-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.footer-section-link .icon img{
+    padding-left: 56px;
+}
+.footer-section-tel{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section-tel div{
+    align-items: center;
+    display: flex;
+}
+.footer-section-tel img{
+    padding-right: 5.4px;
+}
+.footer-bar{
+    top: 515px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 35px 75.9px 34px;
+    background-color: #3D3D3D;
+    line-height: 1.6;
+} 

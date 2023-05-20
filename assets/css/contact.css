@@ -1,0 +1,371 @@
+* {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.font{
+    font-family: Microsoft YaHei UI;
+    font-weight: bold;
+}
+.font-a{
+    font-family: Mochiy Pop One;
+    font-size: 28px;
+    letter-spacing: 3.1px;
+    text-align: center;
+}
+.font-b{
+    font-family: Segoe Print;
+    font-size: 17px;
+    color: #F84C52;
+    letter-spacing: 3.1px;
+}
+.font-c{
+    font-size: 16px;
+    font-family: Malgun Gothic;
+    color: #3E2816;
+}
+.font-d{
+    font-family: Mochiy Pop One;
+    font-size: 18px;
+    color: #3E2816;
+}
+.btn{
+    padding: 4px 6px;
+    background-color: #F56464;
+    font-family: Malgun Gothic;
+    font-size: 11px !important;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.ml{
+    margin-right: 60px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+}
+.container-a{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+.mb-36{
+    margin-bottom: 36px;
+}
+/* nav */
+nav{
+    width: 100%;
+    padding-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+nav > img{
+    padding-left: 100px;
+}
+.nav-icon{
+    display: flex;
+    padding-right: 106px;
+}
+.nav-icon > img{
+    padding-left: 57px;
+}
+
+/* responsive */
+@media(max-width: 768px){
+    .container{
+        max-width : 768px;
+    }
+    .container-a{
+        max-width: 768px;
+    }
+    .nav{
+        padding-left: 36.4px;
+    }
+    nav > img{
+        width: 205.1px;
+        padding-left: 36.4px;
+    }
+    .nav-icon{
+        padding-right: 38px;
+    }
+    .nav-icon > img{
+        width: 25.14px;
+        padding-left: 28.8px;
+    }
+}
+@media(max-width: 320px){
+    .container{
+        max-width : 320px;
+    }
+    .container-a{
+        max-width: 320px;
+    }
+    .nav{
+        padding-left: 18.2px;
+    }
+    nav > img{
+        width: 102.55px;
+        padding-left: 18.2px;
+    }
+    .nav-icon{
+        padding-right: 19px;
+    }
+    .nav-icon > img{
+        width: 16.76px;
+        padding-left: 19.2px;
+    }
+}
+/* header */
+
+.header-backgruond{
+    width: 100%;
+    height: 77vh;
+    background-image: url("../img/contact/shutterstock_1116897128-1024x701.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.header-title{
+    font-size: 75px;
+    color: #FFFFFF;
+    margin: auto;
+}
+.header-text{
+    padding-top: 60px;
+}
+.header-text-main{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.header-text-bottom{
+    display: flex;
+    margin-bottom: 26px;
+}
+.header-text-bottom div{
+    width: 5px;
+    height: 30px;
+    background-color: #DF8585;
+    margin-right: 20px;
+}
+
+/* section */
+
+/* .sectiopn{
+    width: 100%;
+}
+.section-top-title{
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+.section-head-title{
+    padding-left: 16px;
+    display: flex;
+}
+.section-head-title span{
+    padding-left: 77px;
+    color: #3A6CCF;
+    margin-bottom: 37px;
+}
+.section-body-title{
+    padding: 17px 1007px 14px 23px;
+    background-color: #EFE4D1;
+}
+.section-input{
+    padding-top: 36px;
+    padding-bottom: 30px;
+}
+.section-input-one{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 11px;
+    margin-right: 304px;
+}
+.section-input-one input{
+    width: 319px;
+    font-size: 28px;
+    margin-left: 20px;
+}
+.section-input-two{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 304px;
+}
+.section-input-one span{
+    margin-left: 26px;
+}
+.section-input-two input{
+    width: 319px;
+    font-size: 67px;
+    margin-left: 20px;
+}
+.section-input-two span{
+    margin-left: 26px;
+}
+.sectio-bottom-title{
+    text-align: center;
+    letter-spacing: 3.1px;
+    margin-bottom: 30px;
+}
+.sectio-bottom-title .rect{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #707070;
+    margin-right: 11px;
+}
+.section-bottom-btn{
+    text-align: center;
+    margin-bottom: 58px;
+}
+.bottom-btn{
+    padding: 12px 77px 12px 78px;
+    border: 1px solid #707070;
+    border-radius: 34px;
+} */
+
+/* section-bottom-title */
+
+/* .section-bottom-title{
+    width: 100%;
+    padding-bottom: 120px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Mochiy Pop One;
+}
+.section-bottom-title .section-font{
+    font-size: 28px;
+    line-height: 84px;
+    letter-spacing: 300%;
+}
+.section-font-m{
+    font-size: 16px;
+}
+.section-title p {
+    font-size: 14px;
+    line-height: 29px;
+}
+.section-bottom-title .row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-bottom: 22px;
+}
+.section-bottom-title .row .company-img {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.section-bottom-title .section-footer{
+    width: 728px;
+    padding-top: 33px;
+    padding-bottom: 38px;
+    border: 8px solid #828282;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.section-footer p{
+    font-size: 14px;
+    font-family: Malgun Gothic;
+    color: #775539;
+    line-height: 31px;
+}
+.section-btn{
+    text-align: center;
+}
+.section-btn span{
+    padding: 19px 59px 20px;
+    background-color: #DAB28C;
+    font-family: Microsoft YaHei UI;
+    font-size: 18px;
+    line-height: 65px;
+    color: #3E2816;
+    border-radius: 5px;
+} */
+
+/* footer */
+
+/* footer{
+    width: 100%;
+    background-color: #6161A7;
+    font-family: Microsoft YaHei UI;
+    font-size: 30px;
+    padding-top: 135px;
+    padding-bottom: 191.2px;
+    position: relative;
+    color: #ffffff;
+}
+.container-b{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16.9px;
+}
+footer .font{
+    display: flex;
+    line-height: 62px;
+}
+footer .font div{
+    padding-left: 97px;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+.footer-section input{
+    width: 482px;
+    font-size: 57px;
+}
+.footer-section-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.footer-section-link .icon img{
+    padding-left: 56px;
+}
+.footer-section-tel{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section-tel div{
+    align-items: center;
+    display: flex;
+}
+.footer-section-tel img{
+    padding-right: 5.4px;
+}
+.footer-bar{
+    top: 530px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 35px 0px 34px;
+    background-color: #3D3D3D;
+    line-height: 1.6;
+} */
+
